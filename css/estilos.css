@@ -1,0 +1,31 @@
+body{
+    background: radial-gradient(#67f63c, #3f87a6) no-repeat;
+}
+footer{
+    display: flex;
+    justify-content: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.altfila{
+    height: 100px;
+}
+.bootstrap{
+    width: 40%;
+}
+.fondo{
+    height: 4000px;
+    width: 84%;
+    opacity: 20%;
+    position: fixed;
+}
+.row>[class^="col"]{
+    border: 0.1em rgb(0, 0, 0) solid;
+    
+}
+#imagenes{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
